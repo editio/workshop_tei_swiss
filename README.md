@@ -1,6 +1,8 @@
-# _Textes et éditions numériques_
+## _Textes et éditions numériques_
 
-Université de Lausanne (25 et 26 avril 2019)
+Université de Lausanne (25 et 26 avril 2019). [**Textes et éditions numériques**](https://www.unil.ch/doc-digitalstudies/home/menuinst/activites-du-programme/textes-et-editions-numeriques.html), [Programme doctoral en études numériques](https://www.unil.ch/doc-digitalstudies/home.html)
+
+## Edición digital de textos literarios con TEI/XML
 
 Université de Genève (7 mai 2019)
 
