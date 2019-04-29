@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="visualize-tei-xml.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Exercise · Normalization</title>
+            <author>José Luis Losada</author>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <persName>José Luis Losada Palenzuela</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>University of Wrocław</publisher>
+            <date when="2019-04-25">25/04/2019</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"><p>Attribution 4.0 International (CC BY 4.0)</p></licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title>Poësies françoises</title>
+               <author>François Séraphin Regnier-Desmarais</author>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Cellier</publisher>
+               <date>1707</date>
+               <idno type="WEBUrl">http://data.onb.ac.at/rep/10A1B036</idno>
+            </bibl>
+         </sourceDesc>
+
+      </fileDesc>
+
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Everything has been transcribed as it appears on the page, also the special character, the long S (ſ, HTML Entity &#383;),
+                  the ampersand (&amp;), but the encoding offers as well the normalized version.</p>
+            </normalization>
+         </editorialDecl>
+
+      </encodingDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <head type="title">SONNET IMITÉ DE LOPE DE VEGUE</head>
+         <lg type="sonnet">
+            <lg type="quatrain">
+               <l n="1"><hi rend="bold">D</hi>oris, qui <choice>
+                     <orig>ſait</orig>
+                     <reg>sait</reg>
+                  </choice> qu'aux vers quelquefois je me plais,</l>
+               <l n="2">Me demande un <choice>
+                     <orig>Sonnet</orig>
+                     <reg>sonnet</reg>
+                  </choice>; <choice>
+                     <orig>&amp;</orig>
+                     <reg>et</reg>
+                  </choice> je m'en <choice>
+                     <orig>deſeſpere</orig>
+                     <reg>désespère</reg>
+                  </choice>:</l>
+               <l n="3">Quatorze vers, grand Dieu! le moyen de les faire!</l>
+               <l n="4">En voilà cependant <choice>
+                     <orig>desja</orig>
+                     <reg>déjà</reg>
+                  </choice> quatre de faits.</l>
+            </lg>
+
+            <lg type="quatrain">
+               <l n="5">Je ne <choice>
+                     <orig>pouvois</orig>
+                     <reg>pouvais</reg>
+                  </choice> d'abord trouver de rime; mais,</l>
+               <l n="6">En <choice>
+                     <orig>faiſant</orig>
+                     <reg>faisant</reg>
+                  </choice> on apprend à se tirer d'affaire:</l>
+               <l n="7"><choice>
+                     <orig>Pourſuivons</orig>
+                     <reg>Poursuivons</reg>
+                  </choice>, les <choice>
+                     <orig>Quatrains</orig>
+                     <reg>quatrains</reg>
+                  </choice> ne m'<choice>
+                     <orig>eſtonneront</orig>
+                     <reg>étonneront</reg>
+                  </choice>
+                  <choice>
+                     <orig>guere</orig>
+                     <reg>guère</reg>
+                  </choice>,</l>
+               <l n="8">Si du premier <choice>
+                     <orig>Terſet</orig>
+                     <reg>tercet</reg>
+                  </choice> je puis faire les frais.</l>
+            </lg>
+
+            <lg type="tercet">
+               <l n="9">Je commence au <choice>
+                     <orig>hazard</orig>
+                     <reg>hasard</reg>
+                  </choice>;<choice>
+                     <orig>&amp;</orig>
+                     <reg>et</reg>
+                  </choice> si je ne m'abuse,</l>
+               <l n="10">Je n'<choice>
+                     <orig>ay</orig>
+                     <reg>ai</reg>
+                  </choice> pas commencé, <choice>
+                     <orig>ſans</orig>
+                     <reg>sans</reg>
+                  </choice> l'aveu de la <choice>
+                     <orig>Muse</orig>
+                     <reg>muse</reg>
+                  </choice>;</l>
+               <l n="11"><choice>
+                     <orig>Puiſqu</orig>
+                     <reg>Puisqu</reg>
+               </choice>'en
+                  <choice>
+                     <orig>ſi</orig>
+                     <reg>si</reg>
+                  </choice> peu de temps je m'en tire <choice>
+                     <orig>ſi</orig>
+                     <reg>si</reg>
+                  </choice> net.</l>
+            </lg>
+
+            <lg type="tercet">
+               <l n="12">J'entame le second; <choice>
+                     <orig>&amp;</orig>
+                     <reg>et</reg>
+                  </choice> ma <choice>
+                     <orig>joye</orig>
+                     <reg>joie</reg>
+                  </choice> est extrême;</l>
+               <l n="13">Car des vers <choice>
+                     <orig>commandez</orig>
+                     <reg>commandés</reg>
+                  </choice>
+                  j'<choice>
+                     <orig>acheve</orig>
+                     <reg>achève</reg>
+                  </choice> le <choice>
+                     <orig>treizieme</orig>
+                     <reg>treizième</reg>
+                  </choice>;</l>
+               <l n="14">Comptez s'ils sont quatorze; <choice>
+                     <orig>&amp;</orig>
+                     <reg>et</reg>
+                  </choice> voilà le <choice>
+                     <orig>Sonnet</orig>
+                     <reg>sonnet</reg>
+                  </choice>.</l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
