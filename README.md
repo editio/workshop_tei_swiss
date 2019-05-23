@@ -22,3 +22,9 @@ Université de Genève (7 mai 2019)
 ### To download the materials to your computer
 
 - Click the green button "Clone or download" -> "Download ZIP"
+
+---
+
+Substantial parts of these didactic materials were produced during a research visit at the Université de Genève funded by the Swiss National Science Foundation (SNSF).
+
+A version has been deposited in Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1919007.svg)](https://doi.org/10.5281/zenodo.3213807)
