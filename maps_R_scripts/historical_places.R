@@ -18,8 +18,8 @@ library(leaflet)
 
 leaflet() %>%
 addTiles(
-    urlTemplate = "http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png", 
-    attribution = 'Barrington Roman Empire: (CC BY-SA) <a href="http://dare.ht.lu.se">DARE</a> & <a href="http://commons.pelagios.org">Pelagios</a>',
+    urlTemplate = "https://dare.ht.lu.se/tiles/imperium/{z}/{x}/{y}.png", 
+    attribution = 'Barrington Roman Empire: (CC BY-SA) <a href="http://dare.ht.lu.se">DARE</a>',
     group="Roman Empire",
     option=list(continuousWorld=TRUE, tileSize="256")) %>%
   
