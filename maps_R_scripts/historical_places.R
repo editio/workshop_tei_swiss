@@ -7,6 +7,12 @@
 
 # To geolocate historical places and plot a map.
 
+# georeference the places
+# install.packages("devtools")
+# library(devtools)
+# install_github("editio/georeference")
+# see at https://github.com/editio/georeference
+
 library(georeference)
 
 # Run the georef function. Limit the search to Europe to improve the results.

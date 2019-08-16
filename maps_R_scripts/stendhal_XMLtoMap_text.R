@@ -6,12 +6,10 @@
 
 # To extract the places, look up the coordinates, plot a map.
 
-setwd("~/workshop_tei_swiss/03_TEI-EntitesNommees/")
-
 library(XML)
 
 # Load the XML
-xmlfile <-  xmlParse("3.4-Stendhal_Memoires_1838_done.xml", encoding="UTF-8")
+xmlfile <-  xmlParse("03_TEI-EntitesNommees/3.4-Stendhal_Memoires_1838_done.xml", encoding="UTF-8")
 namespace <- c(TEI="http://www.tei-c.org/ns/1.0")
 
 # Extract the placeNames
@@ -21,6 +19,8 @@ placesNames <-  sapply(getNodeSet(xmlfile, "//TEI:text//TEI:placeName", namespac
 places = as.data.frame(table(placesNames), stringsAsFactors = F)
 
 # georeference the places
+# install.packages("devtools")
+# library(devtools)
 # install_github("editio/georeference")
 # see at https://github.com/editio/georeference
 library(georeference)
