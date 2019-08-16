@@ -17,7 +17,7 @@ Université de Genève (7 mai 2019)
 	- Named Entities. Encoding Names, Persons, Places and Dates: [read online](https://editio.github.io/presentations/named-entities.html)
 
 - TEI Extra material (TEI-Normalization).
-- R scripts to plot maps.
+- R scripts to plot maps.  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/editio/workshop_tei_swiss/master?urlpath=rstudio)
 
 ### To download the materials to your computer
 
