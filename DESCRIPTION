@@ -1,0 +1,13 @@
+Type: Compendium
+Package: workshop_tei_swiss
+Title: Using R for Maps
+Version: 0.0.1
+Authors@R: editio.github.io
+Description: Using R for maps
+License: MIT
+Depends: 
+    leaflet,
+    tidyverse,
+    XML
+Encoding: UTF-8
+LazyData: true
