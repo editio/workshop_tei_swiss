@@ -4,7 +4,7 @@ Title: Using R for Maps
 Version: 0.0.1
 Authors@R: editio.github.io
 Description: Using R for dataviz
-License: What license it uses
+License: MIT
 Depends: 
     devtools,
     georeference,
