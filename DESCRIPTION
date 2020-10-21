@@ -1,14 +1,17 @@
 Type: Compendium
-Package: workshop_tei_swiss
+Package: data_visualization_course
 Title: Using R for Maps
 Version: 0.0.1
 Authors@R: editio.github.io
-Description: Using R for maps
-License: MIT
+Description: Using R for dataviz
+License: What license it uses
 Depends: 
+    devtools,
+    georeference,
     leaflet,
     tidyverse,
-    XML,
-    devtools
+    XML
+Remotes: 
+    editio/georeference
 Encoding: UTF-8
 LazyData: true
