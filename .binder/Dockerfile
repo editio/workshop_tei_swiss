@@ -1,4 +1,4 @@
-FROM rocker/binder:4.0.2
+FROM rocker/binder:4.0.3
 LABEL maintainer='editio.github.io'
 USER root
 COPY . ${HOME}
